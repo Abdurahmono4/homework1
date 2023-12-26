@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- nomalize css -->
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <!-- fonts css -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/fonts.css" />
+    <!-- style css -->
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <link rel="shortcut icon" href="./image/logo.svg" type="image/x-icon" />
+    <title>Ringo</title>
+  </head>
+  <header class="header">
+    <div class="container header__container">
+      <div class="header__logo">
+        <a href="#"
+          ><img
+            src="./image/logo.svg"
+            alt=" Ringo Logo"
+            width="122"
+            height="53"
+            class="logotip"
+        /></a>
+      </div>
+      <input type="checkbox" id="check" />
+      <nav class="header__nav">
+        <ul>
+          <li><a href="#">Напрямки</a></li>
+          <li><a href="#">Про компанію</a></li>
+          <li><a href="#">Переваги</a></li>
+          <li><a href="#">Етапи роботи</a></li>
+          <li class="mobile__first mobile__resp">
+            <div class="header__social">
+              <a href=""
+                ><img src="./image/instagram.svg" alt="creator instagram page"
+              /></a>
+              <a href="">
+                <img
+                  src="./image/brandico_facebook.svg"
+                  alt="creator facebook page"
+                />
+              </a>
+            </div>
+          </li>
+
+          <li class="mobile__resp mobile__phone">
+            <div class="phone">
+              <a href="tel:+380 67661 5415">
+                <img src="./image/phone.svg" alt="Phone icon" />
+                <span>+380 67661 5415</span>
+              </a>
+            </div>
+          </li>
+          <li class="mobile__button mobile__resp">
+            <button>Обговорити проект</button>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__contact">
+        <div class="header__social">
+          <a href=""
+            ><img src="./image/instagram.svg" alt="creator instagram page"
+          /></a>
+          <a href="">
+            <img
+              src="./image/brandico_facebook.svg"
+              alt="creator facebook page"
+            />
+          </a>
+        </div>
+
+        <div class="phone">
+          <a href="tel:+380 67661 5415">
+            <img src="./image/phone.svg" alt="Phone icon" />
+            <span>+380 67661 5415</span>
+          </a>
+        </div>
+      </div>
+      <div class="bar">
+        <label for="check">
+          <img src="./image/bar.svg" alt=" bar icon" class="open" width="29 " />
+          <img
+            src="./image/cross.svg"
+            alt="bar icon"
+            class="close"
+            width="29 "
+          />
+        </label>
+      </div>
+    </div>
+    <section class="hero__seciton">
+      <div class="hero container">
+        <h1 class="hero__title">виробництво <br />меблів</h1>
+        <p class="hero__subtitle">
+          Ми виконуємо комплексне виготовлення корпусних меблів для житлових і
+          комерційних приміщень, забезпечимо Вас якісним меблевим продуктом
+          власного виробництва.
+        </p>
+
+        <button class="mobile__btn mobile__resp">Обговорити проект</button>
+        <div class="hero__line"></div>
+        <div class="hero__images">
+          <div class="arrows">
+            <img src="./image/Arrow__left.svg" alt="" /><img
+              src="./image/Arrow__right.svg"
+              alt=""
+            />
+          </div>
+          <img src="./image/sifr.svg" alt="" class="sifr" />
+        </div>
+      </div>
+    </section>
+  </header>
+  <body>
+    <main>
+      <section class="blocks">
+        <h2 class="block__title">Основні напрямки</h2>
+        <div class="blocks__content container">
+          <div class="block">
+            <p class="block__description">01</p>
+            <p class="block__">Дизайн інтерєру</p>
+            <img src="./image/web.png" alt="" class="blcok__image" />
+          </div>
+          <div class="block">
+            <p class="block__description">02</p>
+            <p class="block__">Виробництво меблів</p>
+            <img src="./image/home.png" alt="" class="blcok__image" />
+          </div>
+          <div class="block">
+            <p class="block__description">03</p>
+            <p class="block__">Комплексне меблювання</p>
+            <img
+              src="https://master-prod.s3.bookyourstudy.com/organization/69595organization.jpg"
+              alt=""
+              width="333"
+              height="300"
+              class="blcok__image"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

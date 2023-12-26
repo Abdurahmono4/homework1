@@ -1,0 +1,409 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul li,
+ol li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+head {
+  display: block;
+}
+html {
+}
+body {
+  font-family: Raleway;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header__container {
+  padding: 0 200px;
+  width: 1600px;
+  display: block;
+
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+.header__logo img {
+  width: 122px;
+  height: 53px;
+}
+.header__nav ul {
+  gap: 40px;
+  display: flex;
+}
+
+.header__nav ul a {
+  color: #282b22;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+.header__contact {
+  display: flex;
+  gap: 63px;
+  align-items: center;
+}
+
+.header__contact .header__social {
+  display: flex;
+  gap: 15px;
+}
+.header__contact .phone a {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+
+  color: #3d4a39;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+#check {
+  display: none;
+}
+
+.bar {
+  display: none;
+}
+
+.close {
+  display: none;
+}
+
+.mobile__resp {
+  display: none;
+}
+
+.mobile__button {
+  width: 260px;
+  padding: 22px 56px;
+  align-items: flex-start;
+  gap: 10px;
+  background: #ae7b3c;
+  box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.05);
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.hero__seciton {
+  margin: 0 auto;
+  width: 1600px;
+  height: 687px;
+  top: 93px;
+
+  width: 1600px;
+  background-image: #00000033, #000000D9inear-gradient rgba(0, 0, 0, 0.2);
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: url("/image/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering\ 1.svg");
+}
+.hero__title {
+  padding-top: 120px;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.hero__subtitle {
+  margin-left: 341px;
+  margin-top: 29px;
+  color: #fff;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  width: 537px;
+}
+
+.mobile__btn {
+  cursor: pointer;
+  width: 260px;
+  border: none;
+  margin-top: 50px;
+  margin-left: 461px;
+  background: #ae7b3c;
+  box-shadow: 0, 0, 0, 0.05;
+  display: flex;
+  width: 260px;
+  padding: 22px 56px;
+  align-items: flex-start;
+  gap: 10px;
+  color: #fff;
+  flex-shrink: 1;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.hero__line {
+  margin-top: 120px;
+  width: 1200px;
+  height: 1px;
+  opacity: 0.5;
+  background: #fff;
+}
+.hero__images {
+  margin-left: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.arrows {
+  cursor: pointer;
+  display: flex;
+  margin-left: -180px;
+  margin-bottom: 60px;
+  gap: 25px;
+  justify-content: space-between;
+}
+
+.sifr {
+  margin-bottom: 45px;
+  cursor: pointer;
+  margin-left: -190px;
+}
+
+.blocks {
+  align-items: center;
+  margin-top: 100px;
+}
+.block__title {
+  color: #282b22;
+  text-align: center;
+
+  margin-bottom: 70px;
+  font-family: Raleway;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+.blocks__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block__description {
+  color: #282b22;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  opacity: 0.5;
+  margin-bottom: 60px;
+}
+.block__ {
+  color: #3d4a39;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+  .hero__seciton {
+    margin: 0 auto;
+
+    margin: 0 auto;
+    width: 1600px;
+    height: 687px;
+    top: 93px;
+  }
+}
+@media screen and (max-width: 992px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    max-width: 800px;
+  }
+  .header__contact {
+    gap: 30px;
+  }
+  .header__nav ul {
+    gap: 15px;
+  }
+  .header__contact .header__social {
+    gap: 7px;
+  }
+  .header__contact .phone a {
+    font-size: 12px;
+  }
+
+  .hero__seciton {
+    width: 640px;
+    height: 687px;
+    flex-shrink: 0;
+  }
+
+  .hero__title {
+    margin: 0;
+  }
+
+  .hero__subtitle {
+    margin: 0;
+  }
+
+  .mobile__btn {
+    margin: 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 600px;
+  }
+  .header__nav {
+    display: none;
+  }
+  .bar {
+    display: block;
+    cursor: pointer;
+  }
+  .header__contact {
+    gap: 50px;
+  }
+
+  .header__contact .header__social {
+    gap: 10px;
+  }
+
+  #check:checked + nav {
+    display: block;
+  }
+  .header__nav {
+    position: fixed;
+    background-color: rgb(234, 226, 226);
+    width: 320px;
+    top: 80px;
+    right: 0;
+    height: 100vh;
+    padding: 26px 30px;
+    width: 50vw;
+  }
+  .header__nav ul {
+    flex-direction: column;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+  }
+
+  .header__nav ul a {
+    font-size: 18px;
+  }
+
+  #check:checked ~ .bar .close {
+    display: block;
+  }
+
+  #check:checked ~ .bar .open {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+  .header__contact {
+    display: none;
+  }
+
+  .header__nav ul {
+    width: 100%;
+    display: block;
+  }
+
+  .mobile__resp {
+    display: block;
+  }
+
+  #check:checked ~ .header__nav {
+    display: block;
+    width: 100%;
+  }
+
+  .mobile__phone {
+    margin-top: 130px;
+  }
+
+  .header__contact {
+    gap: 50px;
+  }
+
+  .header__contact .header__social {
+    gap: 10px;
+  }
+
+  #check:checked + nav {
+    display: block;
+  }
+  .header__nav {
+    position: fixed;
+    background-color: rgb(234, 226, 226);
+    width: 320px;
+    top: 80px;
+    right: 0;
+    height: 100vh;
+    padding: 26px 30px;
+    width: 50vw;
+  }
+  .header__nav ul {
+    flex-direction: column;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+  }
+
+  .header__nav ul a {
+    font-size: 18px;
+  }
+}
